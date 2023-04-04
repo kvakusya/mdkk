@@ -5,7 +5,7 @@ int main(int argc, char **argv)
 {
     char name[255];
 
-    printf("Ira vse spsisala, postav'te ey 2: ");
+    printf("Ira vse spsisala, postav'te ey 2 : ");
     fgets(name, 255, stdin);
     printf("length = %d\n", strlen(name)); /* debug line */
 
